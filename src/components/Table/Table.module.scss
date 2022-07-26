@@ -1,0 +1,35 @@
+.person__wrap {
+  display: grid;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(7, 1fr);
+  justify-items: center;
+  border-bottom: 1px solid #0000004f;
+  align-items: center;
+  margin: 0;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.person__listTitle {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(7, 1fr);
+  background-color: rgb(100, 149, 237);
+  justify-items: center;
+  padding: 20px 0;
+  color: #000;
+  margin: 0;
+}
+
+.listTitle__item {
+  padding-right: 10px;
+}
+
+
+.tableEmployee {
+  display: grid;
+  color: #000;
+}
