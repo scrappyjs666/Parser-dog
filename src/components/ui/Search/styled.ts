@@ -1,12 +1,15 @@
-.search__wrapp {
+import styled from '@emotion/styled';
+
+export const SearchWrapp = styled.div`
   display: grid;
   grid-column: 1/-1;
-  Position: relative;
+  position: relative;
   width: 300px;
   margin-bottom: 15px;
-}
+`;
 
-.search {
+export const Input = styled.input`
+  color: #000;
   width: 300px;
   height: 35px;
   outline: none;
@@ -17,27 +20,25 @@
   -o-border-radius: 5px;
   padding: 0 0 0 35px;
   border: none;
-}
+  &::placeholder {
+    color: #000;
+    font-weight: 600;
+  }
+`;
 
-::placeholder {
-  color: #000;
-  font-weight: 600;
-}
-
-.button__search {
+export const ButtonSearch = styled.button`
   top: 12%;
   left: 0%;
   border: none;
   background-color: transparent;
-  Position: absolute;
+  position: absolute;
   cursor: pointer;
-}
-
-.clearInput {
+`;
+export const Clearinput = styled.div`
   top: 12%;
   left: 87%;
-  Position: absolute;
+  position: absolute;
   border: none;
   background-color: transparent;
   cursor: pointer;
-}
+`;

@@ -16,8 +16,8 @@
     "noEmit": true,
     "jsx": "react-jsx",
     "baseUrl": "./src",
-    "strictNullChecks" : true
+    "strictNullChecks": true
   },
-  "include": ["src", "src/custom.d.ts", "**/*.tsx", "**/*.ts", "**/*.js"],
-  "exclude": ["node_modules"]
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
 }

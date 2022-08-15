@@ -16,6 +16,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   color: #fff;
   background-color:  #9e9e9e4d !important;
+  font-weight: 500;
 }
 
 code {
@@ -33,7 +34,6 @@ a {
 
 li {
   list-style-type: none;
-  // padding-bottom: 20px;
 }
 
 ul {
@@ -48,6 +48,15 @@ input:focus::-webkit-input-placeholder {opacity: 0; transition: opacity 0.3s eas
 input:focus::-moz-placeholder          {opacity: 0; transition: opacity 0.3s ease;}
 input:focus:-moz-placeholder           {opacity: 0; transition: opacity 0.3s ease;}
 input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s ease;}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+    box-shadow: 0 0 0 30px white inset !important;
+}
+
 
 .ant-row {
   display: block !important;

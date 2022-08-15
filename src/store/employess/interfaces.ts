@@ -1,3 +1,8 @@
+export interface IUser {
+  name: string;
+  LastName: string;
+}
+
 export interface IPerson {
   FirstName: string;
   LastName: string;

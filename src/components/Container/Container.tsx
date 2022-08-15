@@ -1,12 +1,10 @@
-import React from 'react'
-import styles from './Container.module.scss'
+import React from 'react';
+import { Wrapp } from './styled';
 
 interface IContainer {
-  children: React.ReactNode
+  children: React.ReactNode;
 }
 
-const Container: React.FC<IContainer> = ({ children }) => {
-  return <div className={styles.Container}>{children}</div>
-}
-
-export default Container
+export const Container: React.FC<IContainer> = ({ children }) => {
+  return <Wrapp>{children}</Wrapp>;
+};
